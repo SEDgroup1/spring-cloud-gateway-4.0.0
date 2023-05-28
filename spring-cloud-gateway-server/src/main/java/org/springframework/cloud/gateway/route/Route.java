@@ -41,7 +41,7 @@ import static org.springframework.cloud.gateway.support.ServerWebExchangeUtils.t
 /**
  * @author Spencer Gibb
  */
-public class Route implements Ordered {
+public final class Route implements Ordered {
 
 	private final String id;
 
