@@ -153,7 +153,7 @@ public class DiscoveryClientRouteDefinitionLocator implements RouteDefinitionLoc
 		}
 	}
 
-	private static class DelegatingServiceInstance implements ServiceInstance {
+	private static final class DelegatingServiceInstance implements ServiceInstance {
 
 		final ServiceInstance delegate;
 
